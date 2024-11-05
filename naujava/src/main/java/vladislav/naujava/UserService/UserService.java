@@ -1,11 +1,12 @@
 package vladislav.naujava.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import vladislav.naujava.repository.UserRepository;
 import vladislav.naujava.User.User;
 
-
+@Service
 public class UserService implements UserInterface {
 
     private final UserRepository userRepository;
